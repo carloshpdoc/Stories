@@ -17,6 +17,8 @@
 		A8135F8D264DDE84001197B2 /* StoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8135F8C264DDE84001197B2 /* StoriesUITests.swift */; };
 		A8135FA5264DE1D0001197B2 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A8135FA4264DE1D0001197B2 /* KingfisherSwiftUI */; };
 		A8135FA7264DE1D0001197B2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A8135FA6264DE1D0001197B2 /* Kingfisher */; };
+		A8135FAC264DEABB001197B2 /* LoadingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8135FAB264DEABB001197B2 /* LoadingRectangle.swift */; };
+		A8135FB1264DEC49001197B2 /* StoryTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8135FB0264DEC49001197B2 /* StoryTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A8135F88264DDE84001197B2 /* StoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8135F8C264DDE84001197B2 /* StoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesUITests.swift; sourceTree = "<group>"; };
 		A8135F8E264DDE84001197B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8135FAB264DEABB001197B2 /* LoadingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingRectangle.swift; sourceTree = "<group>"; };
+		A8135FB0264DEC49001197B2 /* StoryTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				A8135F78264DDE83001197B2 /* Info.plist */,
 				A8135F75264DDE83001197B2 /* Stories.xcdatamodeld */,
 				A8135F70264DDE83001197B2 /* Preview Content */,
+				A8135FAB264DEABB001197B2 /* LoadingRectangle.swift */,
+				A8135FB0264DEC49001197B2 /* StoryTimer.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -276,10 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8135FAC264DEABB001197B2 /* LoadingRectangle.swift in Sources */,
 				A8135F74264DDE83001197B2 /* Persistence.swift in Sources */,
 				A8135F77264DDE83001197B2 /* Stories.xcdatamodeld in Sources */,
 				A8135F6D264DDE81001197B2 /* ContentView.swift in Sources */,
 				A8135F6B264DDE81001197B2 /* StoriesApp.swift in Sources */,
+				A8135FB1264DEC49001197B2 /* StoryTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
